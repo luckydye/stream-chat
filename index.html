@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <style>
+      @font-face {
+        font-family: "GeistMono";
+        src: url("GeistMono-Regular.woff2") format("woff2");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      body {
+        padding: 1rem;
+        margin: 0;
+        background: black;
+        color: white;
+        font-family: "GeistMono-Regular", Arial, sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+
+      #chat {
+        scroll-behavior: smooth;
+      }
+
+      .username {
+        color: var(--color);
+      }
+
+      .message {
+        font-sdth: 1rem;
+        line-height: 1.5;
+      }
+
+      .message img {
+        width: auto;
+        height: 1.25em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="chat"></div>
+
+    <script type="module" src="src/main.ts"></script>
+  </body>
+</html>
