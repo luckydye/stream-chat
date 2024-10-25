@@ -1,15 +1,15 @@
 {
-  "name": "stream-chat",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "irc-message": "^3.0.2",
-    "vite": "^5.4.10"
-  }
+	"name": "stream-chat",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx vite build --base /stream-chat"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"irc-message": "^3.0.2",
+		"vite": "^5.4.10"
+	}
 }
