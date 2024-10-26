@@ -7,8 +7,8 @@
 
     <style>
       @font-face {
-        font-family: "GeistMono";
-        src: url("GeistMono-Regular.woff2") format("woff2");
+        font-family: "GeistMono-Regular";
+        src: url("/stream-chat/GeistMono-Regular.woff2") format("woff2");
         font-weight: normal;
         font-style: normal;
       }
@@ -18,13 +18,16 @@
         margin: 0;
         background: black;
         color: white;
-        font-family: "GeistMono-Regular", Arial, sans-serif;
+        font-family: "GeistMono-Regular";
         font-size: 1rem;
         line-height: 1.5;
       }
 
       #chat {
         scroll-behavior: smooth;
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
       }
 
       .username {
@@ -32,8 +35,10 @@
       }
 
       .message {
-        font-sdth: 1rem;
+        font-size: 1rem;
         line-height: 1.5;
+        text-shadow: 0 0 22px #0000008a;
+        font-weight: bold;
       }
 
       .message img {
@@ -45,6 +50,6 @@
   </head>
   <body>
     <div id="chat"></div>
-
+
   </body>
 </html>
